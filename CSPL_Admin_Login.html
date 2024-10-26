@@ -1,0 +1,60 @@
+
+<html>
+    <head>
+        <title>CS Student Evaluation</title>
+        <link rel="stylesheet" href="CSPL.FP.css">
+    </head>
+
+    <body>
+
+        <div class = "banner">  
+  
+
+            <a href = "CSPLFinals.html">     
+                <button class="BacktoMenubtn"> Back to Menu </button>   
+                 </a> 
+
+            <div class="form">
+                <header>ADMIN Login</header>
+                
+               
+                <form onsubmit="auth(); return false;">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter Username"/>
+                
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password"/>
+                
+                    <button type="submit" class="AdminLoginbtn">Login</button>
+                </form>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script>
+    function auth() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username === "Admin" && password === "ADMIN123") {
+            Swal.fire({
+                icon: 'success',
+                title: 'Login Successful!',
+                text: 'Welcome, Admin!',
+            }).then(() => {
+                window.location.href = "CSPL_Admin.html";
+            });
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Login Failed',
+                text: 'Invalid username or password. Please try again.',
+            }).then(() => {
+                document.getElementById("username").value = "";
+                document.getElementById("password").value = "";
+            });
+        }
+    }
+</script>
+    
+        </div>
+    </body>
+</html>

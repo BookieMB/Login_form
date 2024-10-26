@@ -1,0 +1,267 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {   
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #454545;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left; 
+    font-weight: bold; 
+}
+
+
+
+
+
+
+.banner{
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(196, 193, 193, 0.75), rgba(179, 179, 179, 0.75)), url(Background.jpg);
+    background-size: cover;
+    background-position: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Buttoncontainer{
+
+    text-align: center;
+}
+
+.form{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 500px;
+    background: #fefbfb;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 30px 5px 30px;
+
+}
+
+.InputArea {
+
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid   #aeabab;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.questionforms{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 1200px;
+    background: #fefbfb;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 30px 5px 30px;
+}
+
+.underline{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Adminbtn{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background: #a8c4cf;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.AdnQuestionbtn, .AdnDatabtn, .AdnHistorybtn{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    background: #a8c4cf;
+    width: 400px;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    margin: 10px auto;
+    display: block;
+    text-decoration: none;
+}
+
+.BacktoMenubtn{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background: #a8c4cf;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.AddQuestionbtn{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: #a8c4cf;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.DelQuestionbtn {
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: #a8c4cf;
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+    margin-top: 20px;
+    margin-left: 25px;
+    
+}
+
+.AdminLoginbtn{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: #a8c4cf;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+    margin-top: 25px;
+    
+}
+
+.UserLoginbtn{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: #a8c4cf;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+    margin-top: 25px;
+    margin-right: 200px;
+    margin-left: 120px;
+    
+}
+
+.Adminbtn:hover, .Adminbtn:focus, .Adminbtn:active,
+
+.BacktoMenubtn:hover, .BacktoMenubtn:focus, .BacktoMenubtn:active, 
+
+.AdnQuestionbtn:hover, .AdnQuestionbtn:focus, .AdnQuestionbtn:active,
+.AdnDatabtn:hover, .AdnDatabtn:focus, .AdnDatabtn:active,
+.AdnHistorybtn:hover, .AdnHistorybtn:focus, .AdnHistorybtn:active,
+
+.AdminLoginbtn:hover, .AdminLoginbtn:focus, .AdminLoginbtn:active,
+.UserLoginbtn:hover, .UserLoginbtn:focus, .UserLoginbtn:active,
+
+.AddQuestionbtn:hover, .AddQuestionbtn:focus, .AddQuestionbtn:active,
+.DelQuestionbtn:hover, .DelQuestionbtn:focus, .DelQuestionbtn:active{
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transform: scale(1.1);
+}
